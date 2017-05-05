@@ -1,0 +1,164 @@
+/* Empty. Add your own CSS if you like */
+
+body{
+	bgcolor:red;
+}
+.header{
+	height: 100px;
+	width: 100%;
+	background: #689F38;
+}
+.headerText{
+	color:white;
+	font-size: 30px;
+	font-weight: 400;
+	padding-left:10px;
+	position: absolute;
+	top:40px;
+}
+.search{
+	background: ;
+	width: 70%; 
+	display: inline-block;
+	padding-left: 50px;
+	
+}
+.line{
+	background: #689F38;
+	height: 2px;
+	box-shadow: 0px 2px 5px  #3f3f3f;
+		
+}
+.lineside{
+	position: absolute;
+	background: #689F38;
+	width: 1px;
+	height: 35px;
+	top: 100px;
+	left: 0px;
+}
+.searchButton{
+	background: #689F38;
+	width: 30%;
+	position: absolute;
+	right: 0px;
+	top:100px;
+	height: 34px;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+}
+
+
+.bodyColor{
+	background: #ECEFF1;
+}
+.mainSection{
+/* 	padding: 10px; */
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.card{
+	height: 100px;
+}
+.table{
+	width: 100%;
+	height: 100%;
+}
+.tdOne{
+	width: 80%;
+	padding-left: 10px;
+	padding-top: 20px;
+	vertical-align:middle; 
+
+}
+.tdtwo{
+	text-align:center; vertical-align:middle; 
+
+}
+.name{
+	font-size: 25px;
+}
+
+.btn1{
+	
+	background: #AED581;
+	height:50px;
+	color: white;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	
+	
+	
+}
+
+
+
+.btn2{
+	
+	background: #33691E;
+	height:50px;
+	color: white;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	
+	
+	
+}
+
+
+
