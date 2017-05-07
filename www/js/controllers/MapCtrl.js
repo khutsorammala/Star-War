@@ -1,6 +1,9 @@
-ionicApp.controller('MapCtrl', function($scope, mainService,$rootScope,$state,$cordovaGeolocation) {
+ionicApp.controller('MapCtrl', function($scope, mainService,$rootScope,$state,$cordovaGeolocation,$ionicHistory) {
 
-
+$scope.goBack = function() {
+        console.log('Going back');
+        $ionicHistory.backView().go();
+    };  
 
 
 

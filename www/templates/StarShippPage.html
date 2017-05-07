@@ -1,11 +1,15 @@
 <div class="bodyColor">
+	<div class="backbutton" ng-click="goBack()"><i class="ion-chevron-left" style=" color:white;font-size: 250%;"></i></div>
 <!-- header -->
-<div class="header">
+<div class="header" ng-click="goBack()"><span class="name">{{person.name}}  </span>
 	 <div class="headerText">StarShip  </div>
 </div>
+<div class="contents">
+	<span class="itemheading">Starship(s)</span><br>
 
 <div ng-repeat="star in StarShip" > 
-	{{star}}
+	<div class="itemcont">{{star}}</div>
+</div>
 </div>
 
 </div>

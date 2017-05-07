@@ -1,6 +1,9 @@
-ionicApp.controller('SinglePersonCtrl', function($scope, mainService,$rootScope,$state) {
+ionicApp.controller('SinglePersonCtrl', function($scope, mainService,$rootScope,$state,$ionicHistory) {
 
-
+$scope.goBack = function() {
+        console.log('Going back');
+        $ionicHistory.backView().go();
+    };  
 
 $scope.displayHomeWorld = function(info){
 	

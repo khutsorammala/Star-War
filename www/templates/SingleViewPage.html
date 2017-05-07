@@ -1,14 +1,20 @@
 <div class="bodyColor">
+	<div class="backbutton" ng-click="goBack()"><i class="ion-chevron-left" style=" color:white;font-size: 250%;"></i></div>
 <!-- header -->
-<div class="header">name
+<div class="header" ng-click="goBack()"><span class="name">Name</span>
 	 <div class="headerText">{{person.name}}  </div>
 </div>
 
-Height <br>{{person.height}}<br><br>
-Mass<br>{{person.mass}}<br><br>
-Species<br>{{person.species[0]}}<br><br>
+<div class="contents">
+<span class="itemheading">Height</span> <br><div class="itemcont">{{person.height}}</div>
+<span class="itemheading">Mass</span><br><div class="itemcont">{{person.mass}}</div>
+<span class="itemheading">Species</span><br><div class="itemcont">{{person.species[0]}}</div>
+</div>
+<div class="bottons">
 <div ng-click="displayHomeWorld(person.homeworld)" class="btn1">Home word</div>
 <div ng-click="displayStarShip(person.starships)"class="btn2">StarShip</div>
+</div>
+
 
 
 </div>

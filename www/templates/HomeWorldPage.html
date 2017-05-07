@@ -1,17 +1,21 @@
 <div class="bodyColor">
+	<div class="backbutton" ng-click="goBack()"><i class="ion-chevron-left" style=" color:white;font-size: 250%;"></i></div>
 <!-- header -->
-<div class="header">
-	 <div class="headerText">HomeWorld  </div>
+<div class="header" ng-click="goBack()"><span class="name">{{person.name}} </span>
+	 <div class="headerText">Home world  </div>
 </div>
-climate<br>
-{{HomeWolrds.climate}}<br><br>
-created<br>
-{{HomeWolrds.created}}<br><br>
-diameter<br>
-{{HomeWolrds.diameter}}<br><br>
-edited<br>
-{{HomeWolrds.edited}}<br><br>
-population<br>
-{{HomeWolrds.population}}<br><br>
+
+<div class="contents">
+<span class="itemheading">climate</span><br>
+<div class="itemcont">{{HomeWolrds.climate}}</div>
+<span class="itemheading">created</span><br>
+<div class="itemcont">{{HomeWolrds.created}}</div>
+<span class="itemheading">diameter</span><br>
+<div class="itemcont">{{HomeWolrds.diameter}}</div>
+<span class="itemheading">edited</span><br>
+<div class="itemcont">{{HomeWolrds.edited}}</div>
+<span class="itemheading">population</span><br>
+<div class="itemcont">{{HomeWolrds.population}}</div>
+</div>
 
 </div>
