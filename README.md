@@ -1,7 +1,6 @@
 # Star-War
 
-<img src="http://geoffseloana.com/picture/1.png" width="200"  />
-<img src="http://geoffseloana.com/picture/2.png" width="200"  />
+<img src="http://geoffseloana.com/picture/1.png" width="200"  /><img src="http://geoffseloana.com/picture/2.png" width="200"  />
 <img src="http://geoffseloana.com/picture/3.png" width="200"  />
 <img src="http://geoffseloana.com/picture/4.png" width="200"  />
 <img src="http://geoffseloana.com/picture/5.png" width="200"  />
