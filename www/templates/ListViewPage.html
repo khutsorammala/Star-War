@@ -1,6 +1,6 @@
 <div class="bodyColor">
 	
-<div class="backbutton" ><i class="ion-chevron-left" style=" color:white;font-size: 250%;"></i></div>
+<div class="backbutton" ><i class="ion-ios-people" style=" color:white;font-size: 250%;"></i></div>
 <!-- header -->
 <div class="header"><span class="name">People</span>
 	 <div class="headerText">All your Starwars  </div>
@@ -21,9 +21,9 @@
 	<div class="card" ng-repeat="person in people | filter:searchText" ng-click="displayPerson(person)">
 		<table class="table">
 			<tr>
-				<td class="tdOne"><span class="WARname">{{person.name}}</span><br>{{person.species[0]}}</td>
-				<td class="tdtwo"> 
-					<i class="ion-eye" style=" color:{{person.eye_color}};font-size: 500%;"></i>
+				<td class="tdOne"><span class="WARname">{{person.name}}</span><br><span class="itemheading">{{person.species[0]}}</span></td>
+				<td class="tdtwo" style="background: {{person.eye_color}}"> 
+					<i class="ion-ios-eye-outline" style=" color:white;font-size: 500%;"></i>
 				</td>
 			</tr>
 		</table>
