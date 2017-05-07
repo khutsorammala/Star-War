@@ -1,7 +1,9 @@
 <div class="bodyColor">
+	
+<div class="backbutton" ><i class="ion-chevron-left" style=" color:white;font-size: 250%;"></i></div>
 <!-- header -->
-<div class="header">
-	 <div class="headerText">People  </div>
+<div class="header"><span class="name">People</span>
+	 <div class="headerText">All your Starwars  </div>
 </div>
 
 
@@ -9,18 +11,28 @@
 <input type="text" class="search" ng-model="searchText">
 
 <!-- search button -->
+
 <div class="searchButton">Search</div>
 
 <div class="line"></div>
 <div class="lineside"></div>
+
 <div class="mainSection">
 	<div class="card" ng-repeat="person in people | filter:searchText" ng-click="displayPerson(person)">
 		<table class="table">
-			<tr><td class="tdOne"><span class="name">{{person.name}}</span><br>{{person.species[0]}}</td><td class="tdtwo"> <i class="ion-eye" style=" color:{{person.eye_color}};font-size: 500%;"></i></td></tr>
+			<tr>
+				<td class="tdOne"><span class="WARname">{{person.name}}</span><br>{{person.species[0]}}</td>
+				<td class="tdtwo"> 
+					<i class="ion-eye" style=" color:{{person.eye_color}};font-size: 500%;"></i>
+				</td>
+			</tr>
 		</table>
 	</div>
 	
 	<div class="mapButton" ng-click="viewmap()">Comic store close to me<div>
 
 </div>
+
+
+
 </div>
