@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var ionicApp = angular.module('ionicApp', ['ionic','ui.router'])
+var ionicApp = angular.module('ionicApp', ['ionic','ngCordova','ui.router'])
 
 
 .config(function($stateProvider,$urlRouterProvider){
@@ -39,6 +39,12 @@ var ionicApp = angular.module('ionicApp', ['ionic','ui.router'])
          url: "/StarShippPage",
          templateUrl: "templates/StarShippPage.html",
          controller: 'StarShipCtrl'
+     })    
+     .state('MapPage', {
+		//nested state [services is the nested state of business state]
+         url: "/MapPage",
+         templateUrl: "templates/MapPage.html",
+         controller: 'MapCtrl'
      })                          
 
 })

@@ -21,6 +21,16 @@ ionicApp.controller('mainCtrl', function($scope, mainService,$state,$rootScope) 
 		$state.go("SingleViewPage");
 		
 	}
+	
+	
+	$scope.viewmap = function(){
+	
+	
+		
+		$state.go("MapPage");
+		
+	}
+	
 
 
 });
